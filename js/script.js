@@ -55,6 +55,30 @@ const listaTMs = [
     preco: 5500,
     imagem: "./img/disco-azul-grande.png",
   },
+  {
+    id: 107,
+    nome: "TM17 Submission",
+    preco: 3000,
+    imagem: "./img/disco-laranja-grande.png",
+  },
+  {
+    id: 108,
+    nome: "TM19 Seismic Toss",
+    preco: 3000,
+    imagem: "./img/disco-laranja-grande.png",
+  },
+  {
+    id: 109,
+    nome: "TM21 Mega Drain",
+    preco: 2000,
+    imagem: "./img/disco-verde-grande.png",
+  },
+  {
+    id: 110,
+    nome: "TM23 Iron Tail",
+    preco: 3000,
+    imagem: "./img/disco-laranja-grande.png",
+  },
 ];
 
 const catalogoCompleto = [...listaItens, ...listaTMs];

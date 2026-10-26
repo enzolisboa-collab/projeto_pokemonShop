@@ -44,9 +44,11 @@ body {
   justify-content: space-between;
   align-items: center;
   color: white;
-  position: fixed;
-  width: 100%;
-  margin-bottom: 24px;
+  position: fixed; /* Fixa o elemento na tela */
+  top: 0; /* Alinha no topo */
+  left: 0; /* Alinha à esquerda */
+  width: 100%; /* Ocupa toda a largura */
+  z-index: 1000; /* Garante que fique por cima de outros elementos */
 }
 .grupo-topo-cabecalho {
   display: flex;
@@ -110,6 +112,7 @@ body {
   max-width: 1200px;
   height: 1050px;
   margin: 0 auto;
+  padding-top: 100px; /* Adicione um espaçamento igual à altura do header */
 }
 .area-produtos {
   flex: 3;
@@ -117,6 +120,7 @@ body {
 .area-carrinho {
   flex: 1;
   min-width: 300px;
+  top: 100px;
 }
 .titulo-secao {
   margin-bottom: 20px;
@@ -185,7 +189,7 @@ body {
   border-radius: 10px;
   border: 2px solid var(--cor-secundaria);
   position: sticky;
-  top: 20px;
+  top: 100px;
 }
 .lista-itens-carrinho {
   min-height: 100px;
