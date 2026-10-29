@@ -304,6 +304,25 @@ body {
   text-decoration: none;
   color: #ddd;
 }
+.barra-pesquisa {
+  padding: 8px 16px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  width: 250px;
+  transition: 0.2s;
+}
+
+.barra-pesquisa:focus {
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.8);
+}
+
+@media (max-width: 900px) {
+  .barra-pesquisa {
+    width: 100%;
+  }
+}
 @media (max-width: 900px) {
   .conteudo-principal {
     flex-direction: column;

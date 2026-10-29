@@ -4,24 +4,18 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Poke Shopping</title>
-    <!-- Conectando o arquivo CSS -->
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <header class="cabecalho-site">
       <div class="grupo-topo-cabecalho">
         <h1 class="titulo-principal">POKE SHOP</h1>
+        
+        <input type="text" id="barra-pesquisa" class="barra-pesquisa" placeholder="Buscar item..." oninput="pesquisarProdutos()">
+        
         <nav class="grupo-abas">
-          <button
-            id="aba-itens"
-            class="botao-aba ativo"
-            onclick="mudarAba('itens')"
-          >
-            Itens
-          </button>
-          <button id="aba-tms" class="botao-aba" onclick="mudarAba('tms')">
-            TMs
-          </button>
+          <button id="aba-itens" class="botao-aba ativo" onclick="mudarAba('itens')">Itens</button>
+          <button id="aba-tms" class="botao-aba" onclick="mudarAba('tms')">TMs</button>
         </nav>
       </div>
 

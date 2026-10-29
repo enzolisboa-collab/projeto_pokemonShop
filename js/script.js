@@ -14,7 +14,48 @@ const listaItens = [
     id: 12,
     nome: "Hyper Potion",
     preco: 1200,
-    imagem: "./img/hyperpotion.png",
+    imagem:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0CeA73E3DVgMbXNlZMXBOkCJ7syI_JgXc7PBe83rwp9MrnVRI-Phy8TY&s=10",
+  },
+  {
+    id: 13,
+    nome: "Max Repel",
+    preco: "700",
+    imagem:
+      "https://static.wikia.nocookie.net/pokemon-daybreak/images/2/2e/Bag_Max_Repel_Sprite.png/revision/latest/thumbnail/width/360/height/450?cb=20200814060008",
+  },
+  {
+    id: 14,
+    nome: "Super Repel",
+    preco: "500",
+    imagem: "https://pokestop.io/img/item/super-repel-160x160.png",
+  },
+  {
+    id: 15,
+    nome: "Revive",
+    preco: "1500",
+    imagem:
+      "https://static.wikia.nocookie.net/project-pokemon/images/1/13/Revive.png/revision/latest?cb=20170106012058",
+  },
+  {
+    id: 16,
+    nome: "Full Restore",
+    preco: "3000",
+    imagem: "https://pokestop.io/img/item/full-restore-160x160.png",
+  },
+  {
+    id: 17,
+    nome: "Ultra Ball",
+    preco: "1200",
+    imagem:
+      "https://www.nicepng.com/png/detail/267-2670644_ultra-ball-ultra-ball-pixel-art.png",
+  },
+  {
+    id: 18,
+    nome: "Master Ball",
+    preco: "99999999",
+    imagem:
+      "https://i.pinimg.com/474x/62/6c/ff/626cff6c573acc236180e6630d5cefb3.jpg",
   },
 ];
 
@@ -23,61 +64,124 @@ const listaTMs = [
     id: 101,
     nome: "TM01 Mega Punch",
     preco: 3000,
-    imagem: "./img/disco-laranja-grande.png",
+    imagem: "https://www.serebii.net/itemdex/sprites/sv/tm125.png",
   },
   {
     id: 102,
     nome: "TM02 Razor Wind",
     preco: 2000,
-    imagem: "./img/disco-verde-grande.png",
+    imagem: "https://assets.pokeos.com/items/408.png",
   },
   {
     id: 103,
     nome: "TM05 Mega Kick",
     preco: 3000,
-    imagem: "./img/disco-laranja-grande.png",
+    imagem: "https://www.serebii.net/itemdex/sprites/sv/tm125.png",
   },
   {
     id: 104,
     nome: "TM07 Horn Drill",
     preco: 2000,
-    imagem: "./img/disco-prata-grande.png",
+    imagem: "https://www.serebii.net/itemdex/sprites/sv/tm104.png",
   },
   {
     id: 105,
     nome: "TM09 Take Down",
     preco: 3000,
-    imagem: "./img/disco-laranja-grande.png",
+    imagem: "https://www.serebii.net/itemdex/sprites/sv/tm125.png",
   },
   {
     id: 106,
     nome: "TM15 Hyper Beam",
     preco: 5500,
-    imagem: "./img/disco-azul-grande.png",
+    imagem:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTweAXLxMiUa1TjIAJTC-Z10qBRhW5tWyaOFknnnWkjKA&s",
   },
   {
     id: 107,
     nome: "TM17 Submission",
     preco: 3000,
-    imagem: "./img/disco-laranja-grande.png",
+    imagem: "https://www.serebii.net/itemdex/sprites/sv/tm125.png",
   },
   {
     id: 108,
     nome: "TM19 Seismic Toss",
     preco: 3000,
-    imagem: "./img/disco-laranja-grande.png",
+    imagem: "https://www.serebii.net/itemdex/sprites/sv/tm125.png",
   },
   {
     id: 109,
     nome: "TM21 Mega Drain",
     preco: 2000,
-    imagem: "./img/disco-verde-grande.png",
+    imagem: "https://assets.pokeos.com/items/408.png",
   },
   {
     id: 110,
     nome: "TM23 Iron Tail",
     preco: 3000,
-    imagem: "./img/disco-laranja-grande.png",
+    imagem: "https://www.serebii.net/itemdex/sprites/sv/tm125.png",
+  },
+  {
+    id: 111,
+    nome: "TM03 - Swords Dance",
+    preco: "3000",
+    imagem: "https://www.serebii.net/itemdex/sprites/sv/tm125.png",
+  },
+  {
+    id: 112,
+    nome: "TM04 - Whirlwind",
+    preco: "2000",
+    imagem: "https://www.serebii.net/itemdex/sprites/sv/tm025.png",
+  },
+  {
+    id: 113,
+    nome: "TM06 - Toxic",
+    preco: "4000",
+    imagem: "https://www.serebii.net/itemdex/sprites/sv/tm042.png",
+  },
+  {
+    id: 114,
+    nome: "TM08 - Body Slam",
+    preco: "3000",
+    imagem: "https://www.serebii.net/itemdex/sprites/sv/tm078.png",
+  },
+  {
+    id: 115,
+    nome: "TM10 - Double-Edge",
+    preco: "4000",
+    imagem: "https://www.serebii.net/itemdex/sprites/sv/tm010.png",
+  },
+  {
+    id: 116,
+    nome: "TM11 - Bubble Beam",
+    preco: "2500",
+    imagem:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTweAXLxMiUa1TjIAJTC-Z10qBRhW5tWyaOFknnnWkjKA&s",
+  },
+  {
+    id: 117,
+    nome: "TM12 - Water Gun",
+    preco: "1000",
+    imagem:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTweAXLxMiUa1TjIAJTC-Z10qBRhW5tWyaOFknnnWkjKA&s",
+  },
+  {
+    id: 118,
+    nome: "TM13 - Ice Beam",
+    preco: "4500",
+    imagem: "https://www.serebii.net/itemdex/sprites/sv/tm010.png",
+  },
+  {
+    id: 119,
+    nome: "TM14 - Blizzard",
+    preco: "5500",
+    imagem: "https://www.serebii.net/itemdex/sprites/sv/tm010.png",
+  },
+  {
+    id: 120,
+    nome: "TM16 - Pay Day",
+    preco: "2000",
+    imagem: "https://www.serebii.net/itemdex/sprites/sv/tm025.png",
   },
 ];
 
@@ -113,6 +217,9 @@ function renderizarProdutos(listaParaMostrar) {
 function mudarAba(aba) {
   document.getElementById("aba-itens").classList.remove("ativo");
   document.getElementById("aba-tms").classList.remove("ativo");
+
+  // Limpa o texto da barra de pesquisa ao mudar de aba
+  inputPesquisa.value = "";
 
   if (aba === "itens") {
     document.getElementById("aba-itens").classList.add("ativo");
@@ -198,3 +305,24 @@ window.onload = () => {
   renderizarProdutos(listaItens);
   atualizarCarrinho();
 };
+// Referência da barra de pesquisa
+const inputPesquisa = document.getElementById("barra-pesquisa");
+
+// Função para filtrar os produtos
+function pesquisarProdutos() {
+  const termo = inputPesquisa.value.toLowerCase();
+  const verificadorAbaItens = document
+    .getElementById("aba-itens")
+    .classList.contains("ativo");
+
+  // Verifica qual lista deve ser filtrada baseada na aba ativa
+  const listaAtual = verificadorAbaItens ? listaItens : listaTMs;
+
+  // Filtra os itens que incluem o termo digitado no nome
+  const produtosFiltrados = listaAtual.filter((produto) =>
+    produto.nome.toLowerCase().includes(termo)
+  );
+
+  // Renderiza apenas os produtos encontrados
+  renderizarProdutos(produtosFiltrados);
+}
